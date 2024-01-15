@@ -1,0 +1,85 @@
+*{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+
+}
+body{
+    height: 96vh;
+    width: 98vw;
+    background: linear-gradient( to right, rgb(255, 8, 160), rgb(139, 32, 139), blue);
+}
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 10px;
+    background-color: white;
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+#cont{
+    height: 430px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+#chat-messages{
+    height: 350px;
+    width: 350px;
+    background-color:rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 10px;
+}
+
+#con2{
+    display: flex;
+    position: relative;
+}
+#inp{
+    height: 30px;
+    width: 260px;
+    border: 2px solid  rgb(255, 8, 160);
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 20px;
+}
+#submit{
+    height: 36px;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    left: 290px;
+    top: 20px;
+    border: 2px solid  rgb(255, 8, 160); 
+    background-color: blue;
+    color: white;  
+}
+#parents{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+#spn{
+    color: aqua;
+    display: flex;
+    justify-content: end;
+  
+}
+p{
+    display: flex;
+    justify-content: space-between;
+
+    color: rgb(255, 255, 255);
+    height: 30px;
+}
