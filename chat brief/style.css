@@ -13,7 +13,6 @@ button{
     height: 35px;
     width: 100px;
     border-radius: 10px;
-    
     background-color: rgb(234, 233, 233);
     margin-left: 10px;
     font-weight: bold;
@@ -23,10 +22,10 @@ button{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 #cont{
-    height: 530px;
+    height: 450px;
     width: 350px;
     background-color: rgb(234, 233, 233);
     border-radius: 10px;
@@ -34,7 +33,7 @@ button{
 
 }
 #chat-messages{
-    height: 350px;
+    height: 290px;
     width: 350px;
     background-color:rgb(255, 255, 255);
     overflow: auto;
@@ -86,10 +85,11 @@ p{
 }
 #clr{
     position: relative;
-    top: 70px;
+    top: 60px;
     left: 150px;
     background-color: rgb(87, 87, 246);
-    width: 50px;
+    height: 30px;
+    width: 60px;
     border: 2px solid rgb(255, 8, 160);
     color: white;
 
