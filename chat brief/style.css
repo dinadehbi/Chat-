@@ -2,20 +2,20 @@
     font-family: cursive;
     color: rgb(0, 0, 0);
 
+
 }
 body{
     height: 96vh;
     width: 98vw;
-    background: linear-gradient( to right, rgb(255, 8, 160), rgb(139, 32, 139), blue);
+    background: linear-gradient( to right, rgb(255, 8, 160), rgb(139, 32, 139), rgb(87, 87, 246));
 }
 button{
     height: 30px;
     width: 100px;
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
-    margin-left: 10px;
     background-color: white;
-
+    margin-left: 10px;
 }
 #btn{
     display: flex;
@@ -24,9 +24,9 @@ button{
     top: 20px;
 }
 #cont{
-    height: 430px;
+    height: 530px;
     width: 350px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 223, 223);
     border-radius: 10px;
     border: 2px solid black;
 
@@ -50,7 +50,7 @@ button{
     border-radius: 5px;
     position: absolute;
     left: 10px;
-    top: 20px;
+    top: 15px;
     font-size: 20px;
 }
 #submit{
@@ -59,9 +59,9 @@ button{
     border-radius: 5px;
     position: absolute;
     left: 290px;
-    top: 20px;
+    top: 15px;
     border: 2px solid  rgb(255, 8, 160); 
-    background-color: blue;
+    background-color:rgb(87, 87, 246);
     color: white;  
 }
 #parents{
@@ -79,7 +79,21 @@ button{
 p{
     display: flex;
     justify-content: space-between;
-
     color: rgb(255, 255, 255);
-    height: 30px;
+    height: 25px;
+}
+#clr{
+    position: relative;
+    top: 70px;
+    left: 150px;
+    background-color: rgb(87, 87, 246);
+    width: 50px;
+    border: 2px solid rgb(255, 8, 160);
+    color: white;
+
+}
+h3{
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 10px;
 }
