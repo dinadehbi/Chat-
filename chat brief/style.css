@@ -10,12 +10,14 @@ body{
     background: linear-gradient( to right, rgb(255, 8, 160), rgb(139, 32, 139), rgb(87, 87, 246));
 }
 button{
-    height: 30px;
+    height: 35px;
     width: 100px;
     border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: white;
+    
+    background-color: rgb(234, 233, 233);
     margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
 }
 #btn{
     display: flex;
@@ -26,7 +28,7 @@ button{
 #cont{
     height: 530px;
     width: 350px;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(234, 233, 233);
     border-radius: 10px;
     border: 2px solid black;
 
